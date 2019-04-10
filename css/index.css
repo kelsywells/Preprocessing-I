@@ -90,6 +90,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+* {
+  box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -155,14 +158,15 @@ body {
   border: 2px solid black;
 }
 .top-section nav {
-  width: 30%;
-  margin: 7% 10% 0% 16%;
+  width: 33%;
+  margin: 7% 2% 0% 14%;
 }
 .top-section nav :hover {
   border: 1px solid black;
 }
 .top-section nav a {
   font-size: 24px;
+  padding: 1%;
 }
 .top-section h2 {
   font-size: 28px;
@@ -170,15 +174,56 @@ body {
   text-align: center;
   margin: 4% 0% 5% 26%;
   padding: 2%;
-  border: 1px dotted black;
+  border: 2px dotted black;
+}
+#why-hire-me {
+  margin-top: 5%;
+  margin-left: 8%;
+  padding: 1% 5% 1% 5%;
+  width: 80%;
+  border: 2px dotted black;
+}
+#why-hire-me h3 {
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+#why-hire-me p {
+  font-size: 24px;
+  text-align: center;
+}
+.mid-section {
+  display: flex;
 }
 .mid-section h3 {
   text-decoration: underline;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 40px;
 }
 .mid-section p {
-  display: flex;
-  width: 40%;
+  text-align: center;
   font-size: 24px;
+}
+#experience {
+  width: 35%;
+  display: flex;
+  margin: 10%;
+  border: 2px dotted black;
+}
+#skills {
+  width: 35%;
+  display: flex;
+  margin: 10%;
+  border: 2px dotted black;
+}
+footer h3 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+footer p {
+  font-size: 18px;
+  width: 20%;
 }

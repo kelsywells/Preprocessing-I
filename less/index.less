@@ -24,6 +24,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+* {
+	box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -60,14 +64,17 @@ html, body {
 	width: 100%;
 }
 
+@h3-weight: bold;
+
 .top-section {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	margin: 0 10%;
 }
+
 .top-section h1 {
-	font-weight: bold;
+	font-weight: @h3-weight;
 	font-size: 48px;
 	width: 30%;
 	margin: 6% 10% 2% 1%;
@@ -80,8 +87,8 @@ html, body {
 }
 
 .top-section nav {
-	width: 30%;
-	margin: 7% 10% 0% 16%;
+	width: 33%;
+	margin: 7% 2% 0% 14%;
 	:hover {
 		border: 1px solid black;
 	}
@@ -89,6 +96,7 @@ html, body {
 
 .top-section nav a {
 	font-size: 24px;
+	padding: 1%;
 }
 
 .top-section h2 {
@@ -97,32 +105,77 @@ html, body {
 	text-align: center;
 	margin: 4% 0% 5% 26%;
 	padding: 2%;
-	border: 1px dotted black;
+	border: 2px dotted black;
+}
+
+#why-hire-me {
+	margin-top: 5%;
+	margin-left: 8%;
+	padding: 1% 5% 1% 5%;
+	width: 80%;
+	border: 2px dotted black;
+}
+
+#why-hire-me h3 {
+	font-size: 48px;
+	font-weight: @h3-weight;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1%;
+}
+
+#why-hire-me p {
+	font-size: 24px;
+	text-align: center;
+}
+
+.mid-section {
+	display: flex;
 }
 
 .mid-section h3 {
 	text-decoration: underline;
-	font-weight: bold;
-	font-size: 28px;
+	font-weight: @h3-weight;	
+	font-size: 40px;
+
 }
 
-.mid-section #experience {
-	margin: 5% 15% 0% 0%;
-}
-}
-.mid-section #experience p {
-	display: flex;
-	width: 40%;
+.mid-section p {
+	text-align: center;
 	font-size: 24px;
 }
 
+#experience {
+	width: 35%;
+	display: flex;
+	margin: 10%;
+
+	border: 2px dotted black;
+}
+
+#skills {
+	width: 35%;
+	display: flex;
+
+	margin: 10%;
+	border: 2px dotted black;
+}
 
 
 
 
 
 
+footer h3 {
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: @h3-weight;
+}
 
+footer p {
+	font-size: 18px;
+	width: 20%;
+}
 
 
 
