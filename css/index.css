@@ -162,7 +162,7 @@ body {
   margin: 7% 2% 0% 14%;
 }
 .top-section nav :hover {
-  border: 1px solid black;
+  border: 1px dotted black;
 }
 .top-section nav a {
   font-size: 24px;
@@ -205,25 +205,36 @@ body {
 .mid-section p {
   text-align: center;
   font-size: 24px;
+  margin-top: 14%;
 }
 #experience {
-  width: 35%;
-  display: flex;
-  margin: 10%;
+  width: 60%;
+  margin: 5% 5% 5% 8%;
+  padding: 5%;
   border: 2px dotted black;
+}
+#experience h3 {
+  margin-left: 13%;
 }
 #skills {
-  width: 35%;
-  display: flex;
-  margin: 10%;
+  margin: 5% 12% 5% 5%;
   border: 2px dotted black;
+  padding: 5%;
+}
+#skills h3 {
+  margin-left: 30%;
+}
+footer {
+  text-align: center;
+  padding: 2%;
+  margin-right: 8%;
 }
 footer h3 {
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: underline;
   font-weight: bold;
 }
 footer p {
-  font-size: 18px;
-  width: 20%;
+  margin-top: 1%;
+  font-size: 20px;
 }
