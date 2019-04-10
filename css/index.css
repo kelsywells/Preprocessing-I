@@ -140,6 +140,7 @@ body {
   font-family: 'Inconsolata', monospace;
   width: 100%;
 }
+/*variable*/
 .top-section {
   display: flex;
   justify-content: flex-start;
@@ -184,16 +185,17 @@ body {
   border: 2px dotted black;
 }
 #why-hire-me h3 {
-  font-size: 48px;
-  font-weight: bold;
   display: flex;
   justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 1%;
 }
 #why-hire-me p {
   font-size: 24px;
   text-align: center;
 }
+/*mixin*/
 .mid-section {
   display: flex;
 }
